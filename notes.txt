@@ -1,0 +1,10 @@
+1.Start by "git init" to initialize git. 
+
+2. Type "git add fileName" to add the file in your repo.
+
+3. Type in git commit -m "Your message" to commit your files to the repository.
+
+4.
+
+
+
