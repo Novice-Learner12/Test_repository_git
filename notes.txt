@@ -42,6 +42,14 @@ The name origin here is just a label. You can also name it chicken but origin is
 
 14. Main branch is sequential where main progress is saved or committed.
 
+15. Now, if you have more lines added in you file and you want to commit them, then you start the whole process with slightly few changes.
+        Steps:
+        1) git add . 
+        2) git commit -m "Your message"
+        3) git push because we already have the repository linked.
+        
+
+
 
 
 
