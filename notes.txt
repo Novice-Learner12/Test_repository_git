@@ -79,12 +79,56 @@ Like for example,
 
 
 
-
-
-
-
-
 **************************************************************************************************************************************************************************************************8
+
+GIT CLONING
+
+How to clone a remote repository into your local repository???
+
+Command : git clone
+
+This allows you to save and have a copy of others.
+
+ git clone "url"
+ --get the url from the remote repository
+
+ 
+**************************************************************************************************************************************************************************************************8
+
+
+BRANCHING AND MERGING
+
+create branches so that you can experiment on those and then only add them to main.
+
+
+To create branch,
+git branch branchName
+ now the new branch gets created. To check your branches, type in:
+ git branch
+
+ Now, to switch to the side branch use:
+ git checkout branchName
+ checkout means replace something with a version from git history.
+
+
+
+
+**************************************************************************************************************************************************************************************************
+side branch plot
+
+There is nothing wrong with being a cannon fodder side character.
+
+
+
+**************************************************************************************************************************************************************************************************
+
+
+
+
+
+
+
+
 
 
 
