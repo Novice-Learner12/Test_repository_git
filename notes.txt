@@ -2,9 +2,51 @@
 
 2. Type "git add fileName" to add the file in your repo.
 
-3. Type in git commit -m "Your message" to commit your files to the repository.
+3. Type in git commit -m "Your message" to commit your files to the git repository.
 
 4. Now, if you have multiple files to add, then you can use "git add ."
+
+5. All of the files that had not been added will now be in the staging area.
+
+6. You can check their status by typing "git status".
+
+7. additional commands I learned :
+        press q to quit the log pager.
+        git --no-pager log to print normally.
+
+8. Now, if you messed something in your files then you can revert the changes.
+        git diff notes.txt 
+        --it will show the changes made in your file.
+
+        git checkout notes3.txt
+        --this will restore notes3 to it previous state, in other words, its last checkpoint it was committed to.
+
+9. These are all local implementations.
+
+
+**************************************************************************************************************************************************************************************************8
+
+
+GIT REMOTE REPOSITORIES
+
+
+10. Now create a repository in git where you will push your commits. This is to let our commit know that there is a remote repository somewhere on the internet.
+
+11. Now use git remote add origin "your_repo_url".
+
+The name origin here is just a label. You can also name it chicken but origin is recognized globally.
+
+12. git remote add origin https://github.com/Novice-Learner12/Test_repository_git.git
+
+13. Now use ' git push -u origin main' . This will push the local repo to the remote repository. The u flag (-u) links up local and remote repo. The remote is the origin and we will push it to the branch called main.
+
+14. Main branch is sequential where main progress is saved or committed.
+
+
+
+
+
+
 
 
 
