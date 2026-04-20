@@ -4,7 +4,7 @@
 
 3. Type in git commit -m "Your message" to commit your files to the repository.
 
-4.
+4. Now, if you have multiple files to add, then you can use "git add ."
 
 
 
